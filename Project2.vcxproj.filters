@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="3D">
+      <UniqueIdentifier>{ed697871-1b2b-46c8-9f84-363aa7e07be2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2D">
+      <UniqueIdentifier>{5ca78445-5fa5-4bfc-b059-baf63431cde5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_system">
+      <UniqueIdentifier>{d63b3b9a-d72a-46a6-b35e-ccc4730cd757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="no">
+      <UniqueIdentifier>{42f6d111-befe-40b4-af23-3acb0ce2a343}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="input2.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>game_system</Filter>
+    </ClInclude>
+    <ClInclude Include="game_object.h">
+      <Filter>game_system</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>no</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>no</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>no</Filter>
+    </ClInclude>
+    <ClInclude Include="wall.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="wall2.h">
+      <Filter>3D</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>game_system</Filter>
+    </ClInclude>
+    <ClInclude Include="effect.h">
+      <Filter>2D</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>game_system</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="input2.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="explosion.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="bullet.cpp">
+      <Filter>no</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>no</Filter>
+    </ClCompile>
+    <ClCompile Include="game_object.cpp">
+      <Filter>no</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>no</Filter>
+    </ClCompile>
+    <ClCompile Include="wall.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="wall2.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="effect.cpp">
+      <Filter>2D</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>3D</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>game_system</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="pixelShader.cso" />
+    <None Include="vertexShader.cso" />
+  </ItemGroup>
+</Project>
